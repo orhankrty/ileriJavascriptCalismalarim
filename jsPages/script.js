@@ -13,3 +13,13 @@ document.getElementById('degisim').onclick = () =>
     let baslik = document.getElementById('baslik');
     baslik.textContent = "Değişti";
 };
+
+//getElementByClassName Uygulaması
+document.getElementById('degistir').onclick = () =>
+{
+    let metin = document.getElementsByClassName('metin');
+    for(let i = 0; i < metin.length; i++)
+    {
+        metin[i].textContent = "Yazılar Değişti";
+    }
+};
