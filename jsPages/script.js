@@ -64,6 +64,11 @@ console.log(goster);
 let bak = document.getElementById('baslik2');
 console.log(bak);
 
+//getElementByClassName kullanımı ile class seçici içerik gösterme
+let sinif = document.getElementsByClassName('baslik');
+console.log(sinif);
+
+
 
 
 
