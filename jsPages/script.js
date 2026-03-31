@@ -33,3 +33,10 @@ document.getElementById('degis').onclick  = () =>
         liste[i].textContent = "Listeler Değişti";
     }
 };
+
+//QuerySelector
+document.getElementById('yenile').onclick = () =>
+{
+    let yeni = document.querySelector('.yeni');
+    yeni.textContent = "Yenilendi"
+};
