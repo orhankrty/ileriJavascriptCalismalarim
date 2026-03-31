@@ -60,6 +60,10 @@ console.log(goster);
 goster.innerHTML = "Cristiano Ronaldo";
 console.log(goster);
 
+//getElementById kullanımı ile id seçici içerik gösterme
+let bak = document.getElementById('baslik2');
+console.log(bak);
+
 
 
 
