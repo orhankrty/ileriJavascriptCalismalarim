@@ -51,3 +51,10 @@ document.getElementById('hepsi').onclick = () =>
      }
     );
 };
+
+//QuerySelector kullanımı ile tag seçici içerik gösterme
+let goster = document.querySelector('h2');
+console.log(goster);
+
+
+
