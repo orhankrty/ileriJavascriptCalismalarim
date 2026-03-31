@@ -56,5 +56,10 @@ document.getElementById('hepsi').onclick = () =>
 let goster = document.querySelector('h2');
 console.log(goster);
 
+//innerHTML ile içerik değişimi
+goster.innerHTML = "Cristiano Ronaldo";
+console.log(goster);
+
+
 
 
