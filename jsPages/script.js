@@ -40,3 +40,14 @@ document.getElementById('yenile').onclick = () =>
     let yeni = document.querySelector('.yeni');
     yeni.textContent = "Yenilendi"
 };
+
+//QuerySelectorAll
+document.getElementById('hepsi').onclick = () =>
+{
+    let all = document.querySelectorAll('#all');
+    all.forEach(all =>
+     {
+        all.textContent = "Hepsi Yenilendi";
+     }
+    )
+}
