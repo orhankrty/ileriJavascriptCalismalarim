@@ -23,3 +23,13 @@ document.getElementById('degistir').onclick = () =>
         metin[i].textContent = "Yazılar Değişti";
     }
 };
+
+// getElementByTagName Uygulaması
+document.getElementById('degis').onclick  = () =>
+{
+    let liste = document.getElementsByTagName('li');
+    for(i = 0; liste.length; i++)
+    {
+        liste[i].textContent = "Listeler Değişti";
+    }
+};
