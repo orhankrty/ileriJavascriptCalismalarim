@@ -49,5 +49,5 @@ document.getElementById('hepsi').onclick = () =>
      {
         all.textContent = "Hepsi Yenilendi";
      }
-    )
-}
+    );
+};
