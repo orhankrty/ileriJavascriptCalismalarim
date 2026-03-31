@@ -5,3 +5,11 @@ console.log(document.body);
 console.log(document.head);
 console.log(document.forms);
 console.log(document.scripts);
+
+
+// getElementById Uygulaması
+document.getElementById('degisim').onclick = () =>
+{
+    let baslik = document.getElementById('baslik');
+    baslik.textContent = "Değişti";
+};
