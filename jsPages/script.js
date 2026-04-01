@@ -95,5 +95,41 @@ function Tıklandı()
 }
 
 
+// onclick
+function tiklandi()
+{
+    alert("Butona Tıklandı");
+}
 
+// onmouseover
+function uzerineGel()
+{
+    document.getElementById("kutu").style.backgroundColor = "orange";
+}
+
+// onkeydown
+function tusBasildi(e)
+{
+    console.log("Basılan Tuş: " , e.key);
+}
+
+function secimDegisti(select) 
+{
+   alert("Seçilen değer: " + select.value);
+}
+
+function formKontrol(event) 
+{
+event.preventDefault();
+let ad = document.getElementById("ad").value;
+
+if(ad === "") 
+{
+alert("Ad alanı boş bırakılamaz!"); 
+} 
+else 
+{
+alert("Form başarıyla gönderildi!");
+}
+}
 

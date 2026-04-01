@@ -64,6 +64,33 @@
 
         <button onclick="Tıklandı()">Tıkla</button>
 
+        <br><hr><br>
+
+                <!-- onclick -->
+        <button onclick="tiklandi()">Tıkla</button>
+        <br><br>
+
+        <!-- onmouseover -->
+        <div id="kutu" onmouseover="uzerineGel()">Mouse Üzerine Gel</div>
+        <br><br>
+
+        <!-- onkeydown -->
+        <input type="text" placeholder="Bir Tuşa Basın" onkeydown="tusBasildi(event)">
+        <br><br>
+
+        <!-- onchange -->
+        <select onchange="secimDegisti(this)">
+            <option value="">Seçiniz</option>
+            <option value="Kırmızı">Kırmızı</option>
+            <option value="Mavi">Mavi</option>
+        </select>
+
+        <!-- onsubmit -->
+        <form onsubmit="formKontrol(event)">
+            <input type="text" id="ad" placeholder="Adınızı girin">
+            <button type="submit">Gönder</button>
+        </form>
+
 
     </center>
 
