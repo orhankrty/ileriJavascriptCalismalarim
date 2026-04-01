@@ -189,3 +189,12 @@ function ikiSayfaGeri()
 {
     history.go(-2);
 }
+
+
+//Screen Nesnesi
+console.log(screen);
+console.log(screen.width);
+console.log(screen.height);
+console.log(screen.availWidth);
+console.log(screen.availHeight);
+console.log(screen.colorDepth);
