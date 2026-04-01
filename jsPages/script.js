@@ -145,6 +145,31 @@ console.log(window.outerHeight);
 console.log(window.name);
 console.log(window.closed);
 
+//Location Nesnesi
+console.log(location);
+console.log(location.href); //tam adres
+console.log(location.hostname); //alan adı
+console.log(location.pathname); //dosya yolu
+console.log(location.protocol); //protokol htpp, https
+console.log(location.port); //port numarası
+console.log(location.hash); // URL sonunda # kısmı
 
+//Location Nesnesi Örneği
+document.getElementById("bilgi").innerHTML = "Mevcut URL: "+ location.href;
+
+function googleGit()
+{
+    location.assign("https://www.wikipedia.org");
+}
+
+function sayfaYenile()
+{
+    location.reload();
+}
+
+function replaceGit()
+{
+    location.replace("https://www.wikipedia.org")
+}
 
 
