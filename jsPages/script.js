@@ -89,6 +89,11 @@ button.addEventListener("click", function(Event)
 );
 
 
+function Tıklandı()
+{
+    alert("Tıklandı");
+}
+
 
 
 
