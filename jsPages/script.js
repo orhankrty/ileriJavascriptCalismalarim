@@ -173,3 +173,19 @@ function replaceGit()
 }
 
 
+
+//History Nesnesi Örneği
+function geriGit()
+{
+    history.back();
+}
+
+function ileriGit()
+{
+    history.forward();
+}
+
+function ikiSayfaGeri()
+{
+    history.go(-2);
+}
