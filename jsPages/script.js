@@ -69,6 +69,26 @@ let sinif = document.getElementsByClassName('baslik');
 console.log(sinif);
 
 
+//Event Nesnesi ve Özellikleri Çalışması
+let button = document.getElementById("dinle");
+
+button.addEventListener("click", function(Event)
+ {
+    console.log("Olayın Türü: " + event.type);
+    console.log("Tıklanan Eleman: " + event.target);
+    console.log("Dinleme Zamanı: " + event.currentTarget);
+    console.log("Olay Zamanı: " + event.timeStamp);
+    console.log("Kayma Durumu: " + event.bubbles);
+
+    console.log("Mouse X: " + event.clientX);
+    console.log("Mouse Y: " + event.clientY);
+    console.log("Hangi Zaman: " + event.button);
+    console.log("CTRL:" + event.ctrlkey);
+    console.log("SHIFT:" + event.shiftkey);
+ }
+);
+
+
 
 
 
