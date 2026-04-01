@@ -133,3 +133,18 @@ alert("Form başarıyla gönderildi!");
 }
 }
 
+
+
+//BOM
+
+//Window Nesnesi
+console.log(window.innerWidth);
+console.log(window.innerHeight);
+console.log(window.outerWidth);
+console.log(window.outerHeight);
+console.log(window.name);
+console.log(window.closed);
+
+
+
+
